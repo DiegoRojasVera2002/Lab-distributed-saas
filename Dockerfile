@@ -1,7 +1,6 @@
 # Imagen base minimalista
 FROM python:3.10-slim-bookworm
 
-# Actualiza los paquetes del sistema para reducir vulnerabilidades
 
 # Variables para que Python no genere .pyc y tenga logs sin buffer
 ENV PYTHONDONTWRITEBYTECODE=1 \
