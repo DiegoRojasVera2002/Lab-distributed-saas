@@ -1,3 +1,8 @@
+# Miembros:
+- Rojas Vera Diego Alonso
+- Rojas Melendez Franklin Eder
+- Silva Ramos Cesar Alexander
+  
 # Chat‑as‑a‑Service (SaaS Demo)
 
 ***Laboratorio de Ingeniería de Software Distribuido***
