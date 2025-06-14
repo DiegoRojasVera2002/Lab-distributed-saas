@@ -37,7 +37,7 @@
 
 <p align="center">
   <!-- imagen renderizada -->
-  <img src="diagrams/architecture.png" width="300" alt="Diagrama de arquitectura" />
+  <img src="diagrams/architecture.png" width="150" alt="Diagrama de arquitectura" />
 </p>
 
 ### ¿Qué ocurre?
