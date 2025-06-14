@@ -6,7 +6,7 @@
 > Despliegue público: **[https://chat-service-0-1.onrender.com](https://chat-service-0-1.onrender.com)**
 > Docker Hub (imagen pública): **diego21062/chat-service:0.1**
 
-> ![Docker Hub screenshot](diagrams/docker-hub.png)
+> ![Docker Hub screenshot](diagrams/dockerhub.png)
 
 ---
 
