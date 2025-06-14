@@ -2,11 +2,11 @@
 
 ***Laboratorio de Ingeniería de Software Distribuido***
 
-> **Versión 0.2.0** · Junio 2025
+
 > Despliegue público: **[https://chat-service-0-1.onrender.com](https://chat-service-0-1.onrender.com)**
-> Docker Hub (imagen pública): **diego21062/chat-service:0.2**
-> *(📸 deja tu captura aquí)*
-> ![Docker Hub screenshot](docs/docker-hub.png)
+> Docker Hub (imagen pública): **diego21062/chat-service:0.1**
+
+> ![Docker Hub screenshot](diagrams/docker-hub.png)
 
 ---
 
@@ -25,7 +25,7 @@
 
 <p align="center">
   <!-- imagen renderizada -->
-  <img src="diagrams/architecture.png" width="600" alt="Diagrama de arquitectura" />
+  <img src="diagrams/architecture.png" width="300" alt="Diagrama de arquitectura" />
 </p>
 
 ### ¿Qué ocurre?
