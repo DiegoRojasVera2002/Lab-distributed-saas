@@ -9,6 +9,18 @@
 > ![Docker Hub screenshot](diagrams/dockerhub.png)
 
 ---
+## 📝 Resumen
+
+**Chat-as-a-Service (Ca-a-S)** es un micro-servicio construido con **FastAPI** que brinda mensajería en tiempo real a través de **WebSockets** y una API **REST** para almacenar el historial. Se empaqueta en un único contenedor **Docker** y se despliega como **SaaS** en Render Free (o cualquier plataforma compatible).
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Modelo SaaS** | *Zero-Ops*: sin administrar servidores.<br>*Pay-per-use*: Render suspende la instancia sin tráfico.<br>HTTPS/WSS y TLS gestionados por el proveedor. |
+| **Funcionalidades clave** | 1. Persistencia ligera en **SQLite**.<br>2. Historial inicial + **broadcast** en vivo.<br>3. Patrones distribuidos: micro-servicio stateless, balanceo global y CI/CD (GitHub Actions → Docker Hub → Render). |
+| **Por qué WebSockets** | Necesitamos *push* instantáneo; evita el *polling* HTTP.<br>Conexión dúplex duradera ⇒ menor latencia y cabecera.<br>Modelo publicación-suscripción simple para múltiples clientes. |
+| **Propósito docente** | Ilustrar sincronización, concurrencia y consistencia eventual mediante un ejemplo tangible y visual, listo para prácticas de **Sistemas Distribuidos** o prototipos de hackatón. |
+
+> En conjunto, el proyecto muestra cómo construir, contenerizar y exponer un servicio de mensajería **SaaS-ready** con el mínimo esfuerzo operativo.
 
 ## ✨ ¿Por qué "Chat‑as‑a‑Service"?
 
